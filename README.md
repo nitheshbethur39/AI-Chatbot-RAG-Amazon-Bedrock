@@ -8,18 +8,14 @@ This project focuses on building an AI-powered chatbot using **Retrieval-Augment
 2️⃣ **AI Model Processing:** Amazon Bedrock processes the query and determines the needed information.
 3️⃣ **Data Retrieval:** The chatbot retrieves relevant data from the Knowledge Base stored in **Amazon S3**.
 4️⃣ **Response Generation:** The AI model structures the retrieved data into a meaningful response.
+![image.png](attachment:55277bba-01bc-4144-a5d5-2d7cc2d3b890:14e5bdfe-ad82-47fd-bab1-e105b20108cf.png)
 
 ## 🛠️ AWS Services Used
 - **Amazon Bedrock** - AI model hosting for chatbot responses
 - **Amazon S3** - Storing knowledge base documents
 - **IAM Roles & Policies** - Secure access control for Bedrock and S3
 - **Retrieval-Augmented Generation (RAG)** - Enabling context-aware responses
-
-## 📂 Project Files & Directories
-- **README.md** - Documentation of the project
-- **Architecture Diagram** - Visual representation of the chatbot workflow
-- **Example IAM Policies** - Sample configurations for secure AWS resource access
-- **Manifest File (if used)** - Example S3 structure for data retrieval
+![image.png](attachment:f3b45ced-6326-4334-9f21-9601f4c8d4d7:image.png)
 
 ## 🚀 How to Recreate This Project
 Since AWS resources were deleted, follow these steps to understand and rebuild:
@@ -27,6 +23,7 @@ Since AWS resources were deleted, follow these steps to understand and rebuild:
 2️⃣ **Enable Amazon Bedrock** to access AI models.
 3️⃣ **Configure IAM Roles** to allow communication between services.
 4️⃣ **Implement Retrieval-Augmented Generation (RAG)** for AI-driven responses.
+![image.png](attachment:f3e77102-32d3-4316-8296-da0d1629b6dd:e830bda9-c91f-4905-ae80-8573a4884464.png)
 
 ## 🎯 Learnings & Challenges
 - **Understanding RAG** and its integration with AWS services.
